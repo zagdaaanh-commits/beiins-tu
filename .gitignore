@@ -1,0 +1,17 @@
+# Dependencies
+node_modules
+
+# Build outputs
+dist
+dist-ssr
+*.tsbuildinfo
+
+# Local env & Vercel
+.env
+.env.*
+.vercel
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db

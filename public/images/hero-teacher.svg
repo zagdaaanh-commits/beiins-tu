@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 760" width="600" height="760">
+  <defs>
+    <linearGradient id="studioBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F6F4F0"/>
+      <stop offset="100%" stop-color="#EBE7DF"/>
+    </linearGradient>
+    <linearGradient id="shirtShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F1EFEA"/>
+    </linearGradient>
+    <linearGradient id="denim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6B8EAE"/>
+      <stop offset="100%" stop-color="#4D6E8D"/>
+    </linearGradient>
+    <linearGradient id="tabletGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D7A797"/>
+      <stop offset="100%" stop-color="#B98272"/>
+    </linearGradient>
+    <filter id="softShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#1A1A1A" flood-opacity="0.09"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="760" fill="url(#studioBg)"/>
+  <circle cx="485" cy="120" r="150" fill="#FDE3C8" opacity="0.45"/>
+  <circle cx="110" cy="640" r="170" fill="#25533E" opacity="0.07"/>
+
+  <g filter="url(#softShadow)">
+    <rect x="44" y="64" width="146" height="58" rx="18" fill="#FFFFFF"/>
+    <circle cx="74" cy="93" r="16" fill="#FDE3C8"/>
+    <text x="74" y="99" text-anchor="middle" font-family="Noto Sans SC, sans-serif" font-size="16" font-weight="700" fill="#EB5E43">好</text>
+    <text x="102" y="88" font-family="Nunito, Noto Sans, sans-serif" font-size="14" font-weight="800" fill="#1A1A1A">nǐ hǎo</text>
+    <text x="102" y="106" font-family="Inter, Noto Sans, sans-serif" font-size="11" fill="#5C5C5C">Сайн уу</text>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="418" y="196" width="144" height="56" rx="18" fill="#25533E"/>
+    <text x="442" y="220" font-family="Nunito, Noto Sans, sans-serif" font-size="13" font-weight="800" fill="#FDE3C8">HSK 1–6</text>
+    <text x="442" y="238" font-family="Inter, Noto Sans, sans-serif" font-size="11" fill="#FFFFFF" opacity="0.88">Монгол тайлбар</text>
+  </g>
+
+  <path d="M214 215 C208 135, 392 135, 386 215 L398 355 C398 380, 376 392, 358 386 L242 386 C224 392, 202 380, 202 355 Z" fill="#1F1C1A"/>
+  <path d="M276 332 L324 332 L328 398 L272 398 Z" fill="#F2C6A7"/>
+  <path d="M276 350 Q300 368 324 350 L324 336 L276 336 Z" fill="#E3B18E" opacity="0.55"/>
+
+  <path d="M168 452 C175 402, 232 382, 274 378 L326 378 C368 382, 425 402, 432 452 L456 626 L144 626 Z" fill="url(#shirtShade)" stroke="#E3DFD7" stroke-width="2"/>
+  <path d="M272 378 L300 426 L246 420 Z" fill="#FFFFFF" stroke="#DCD6CC" stroke-width="1.5"/>
+  <path d="M328 378 L300 426 L354 420 Z" fill="#FFFFFF" stroke="#DCD6CC" stroke-width="1.5"/>
+  <line x1="300" y1="426" x2="300" y2="626" stroke="#E5E0D8" stroke-width="2"/>
+  <circle cx="300" cy="462" r="3" fill="#CFC8BD"/>
+  <circle cx="300" cy="502" r="3" fill="#CFC8BD"/>
+
+  <rect x="172" y="618" width="256" height="24" rx="4" fill="#222222"/>
+  <rect x="284" y="615" width="32" height="30" rx="5" fill="#444444" stroke="#A39E93" stroke-width="2.5"/>
+  <path d="M170 642 L430 642 L446 760 L154 760 Z" fill="url(#denim)"/>
+  <line x1="300" y1="642" x2="300" y2="760" stroke="#3D5975" stroke-width="2" opacity="0.6"/>
+
+  <ellipse cx="300" cy="258" rx="68" ry="82" fill="#F6CFB3"/>
+  <ellipse cx="232" cy="264" rx="10" ry="16" fill="#F1C3A3"/>
+  <ellipse cx="368" cy="264" rx="10" ry="16" fill="#F1C3A3"/>
+  <ellipse cx="264" cy="276" rx="14" ry="8" fill="#EB5E43" opacity="0.18"/>
+  <ellipse cx="336" cy="276" rx="14" ry="8" fill="#EB5E43" opacity="0.18"/>
+  <path d="M256 236 Q271 228 286 235" fill="none" stroke="#24201E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M314 235 Q329 228 344 236" fill="none" stroke="#24201E" stroke-width="4" stroke-linecap="round"/>
+  <path d="M261 255 Q273 246 285 255" fill="none" stroke="#1E1A18" stroke-width="4.2" stroke-linecap="round"/>
+  <path d="M315 255 Q327 246 339 255" fill="none" stroke="#1E1A18" stroke-width="4.2" stroke-linecap="round"/>
+  <path d="M300 258 L296 277 Q300 281 306 278" fill="none" stroke="#D5A180" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M276 296 Q300 322 324 296 Z" fill="#FFFFFF" stroke="#C96A5B" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <path d="M228 232 C230 165, 370 165, 372 232 C354 198, 326 190, 294 198 C272 204, 246 210, 228 232 Z" fill="#1F1C1A"/>
+  <path d="M228 228 C216 268, 212 315, 222 365 C235 352, 240 315, 238 272 Z" fill="#1F1C1A"/>
+  <path d="M372 228 C384 268, 388 315, 378 365 C365 352, 360 315, 362 272 Z" fill="#1F1C1A"/>
+
+  <path d="M168 452 C136 510, 146 568, 226 574 L250 532 C214 522, 206 492, 214 462 Z" fill="#FFFFFF" stroke="#E3DFD7" stroke-width="2"/>
+  <path d="M432 452 C464 510, 456 568, 392 566 L366 524 C394 516, 400 490, 392 462 Z" fill="#FFFFFF" stroke="#E3DFD7" stroke-width="2"/>
+
+  <g transform="rotate(-8 345 535)" filter="url(#softShadow)">
+    <rect x="260" y="476" width="184" height="122" rx="14" fill="url(#tabletGrad)"/>
+    <rect x="270" y="486" width="164" height="102" rx="8" fill="#FDFBF7" opacity="0.92"/>
+    <circle cx="352" cy="537" r="22" fill="#FDE3C8"/>
+    <text x="352" y="545" text-anchor="middle" font-family="Noto Sans SC, sans-serif" font-size="22" font-weight="700" fill="#EB5E43">汉</text>
+  </g>
+
+  <ellipse cx="268" cy="558" rx="22" ry="15" fill="#F6CFB3"/>
+  <ellipse cx="422" cy="526" rx="18" ry="20" fill="#F6CFB3"/>
+</svg>

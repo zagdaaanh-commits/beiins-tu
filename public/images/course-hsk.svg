@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="bgHsk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#25533E"/>
+      <stop offset="100%" stop-color="#193A2B"/>
+    </linearGradient>
+    <filter id="sh3" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#0D2218" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgHsk)"/>
+  <circle cx="670" cy="80" r="160" fill="#FFFFFF" opacity="0.06"/>
+  <circle cx="110" cy="390" r="150" fill="#EB5E43" opacity="0.16"/>
+
+  <g filter="url(#sh3)" transform="translate(106 88) rotate(-5)">
+    <rect width="278" height="270" rx="26" fill="#FDE3C8"/>
+    <rect x="24" y="24" width="96" height="32" rx="16" fill="#EB5E43"/>
+    <text x="72" y="45" text-anchor="middle" font-family="Nunito, sans-serif" font-size="14" font-weight="800" fill="#FFFFFF">HSK 1–6</text>
+    <text x="139" y="152" text-anchor="middle" font-family="Noto Sans SC, sans-serif" font-size="68" font-weight="700" fill="#1A1A1A">考试</text>
+    <text x="139" y="198" text-anchor="middle" font-family="Nunito, Noto Sans, sans-serif" font-size="24" font-weight="800" fill="#25533E">kǎo shì</text>
+    <rect x="64" y="220" width="150" height="10" rx="5" fill="#E6C6A4"/>
+  </g>
+
+  <g filter="url(#sh3)" transform="translate(422 96)">
+    <rect width="286" height="260" rx="26" fill="#FDFBF7"/>
+    <text x="30" y="54" font-family="Nunito, Noto Sans, sans-serif" font-size="22" font-weight="900" fill="#1A1A1A">HSK 1–2 · 3–4 · 5–6</text>
+    <rect x="30" y="84" width="226" height="14" rx="7" fill="#EFE7DB"/>
+    <rect x="30" y="84" width="192" height="14" rx="7" fill="#EB5E43"/>
+    <rect x="30" y="124" width="226" height="14" rx="7" fill="#EFE7DB"/>
+    <rect x="30" y="124" width="154" height="14" rx="7" fill="#25533E"/>
+    <rect x="30" y="164" width="226" height="14" rx="7" fill="#EFE7DB"/>
+    <rect x="30" y="164" width="108" height="14" rx="7" fill="#222222"/>
+    <circle cx="48" cy="218" r="16" fill="#25533E"/>
+    <path d="M41 218 L46 223 L56 213" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="96" cy="218" r="16" fill="#EB5E43"/>
+    <path d="M89 218 L94 223 L104 213" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="144" cy="218" r="16" fill="#FDE3C8"/>
+    <path d="M137 218 L142 223 L152 213" fill="none" stroke="#25533E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
